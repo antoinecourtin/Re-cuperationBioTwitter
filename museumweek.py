@@ -3,10 +3,10 @@
 from twython import Twython
 
 
-APP_KEY = 'JNRZRt7FthtCud17prlCEbgrg'
-APP_SECRET = 'EQST5754eyzyPnFVcXdeR9vO6k3iScUaRHAxvgGElTdv23GHe3'
-ACCESS_TOKEN = '119048849-Ev14VyT6yoS70q1IJgdc9aGW5nck7WV1WxEg8G52'
-ACCESS_TOKEN_SECRET = '2HR2PDglEJo6KOkTYwvHIO7bPfW3ReRscDSnawXTV3eQg'
+APP_KEY = 'vosid'
+APP_SECRET = 'vosid'
+ACCESS_TOKEN = 'vosid'
+ACCESS_TOKEN_SECRET = 'vosid'
 
 
 twitter = Twython(APP_KEY, APP_SECRET)
