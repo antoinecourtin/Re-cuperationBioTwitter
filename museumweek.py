@@ -56,8 +56,6 @@ while tranche < nbTranches:
 	
 	while idBio <=max+tailleTranches:   #len(listecomptes)-1:
 		#Mise au point de la boucle
-#		comptesbio.write(str(idBio))+';'+str(idBio+1)+';'+listecomptes[idBio]+'\n'
-#		comptesbio.write(str(idBio)+'\n')		
 		log=""
 		try:user_timeline = twitter.show_user(screen_name=listecomptes[idBio])
 		except TwythonError as e:
